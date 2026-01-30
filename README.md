@@ -1,3 +1,5 @@
+# capripoxvirus genome phylogenetics
+
 # 2026-01-30
 
 Code to make a  maximum likelihood phylogeny of the SPPV samples with GTPV, LSDV, and the nine most closely related chordopox species based on the KX894508.1 core genome coordinates corresponding to CDSs LSDV027-LSDV123.
