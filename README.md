@@ -11,4 +11,6 @@ Adding in more published LSDV WT core genomes had no effect on the topology, and
 
 [2] Split the genomes with split_aln.py
 
-[3] The evolutionary relationships of this core genome dataset were reconstructed using RAxML-NG v1.2.0 (Kozlov et al., 2019) with 1,000 bootstraps and with a GTR model and gamma substitution rate heterogeneity, selected by modeltest-ng (Darriba et al., 2020). The phylogeny was rooted using the nine non-capripoxvirus chordopox samples, and was visualised using ape v5.7-1 (Paradis and Schliep, 2019), ggtree v3.8.2 (Yu et al., 2017), phangorn v2.11.1 (Schliep, 2011) and phytools v2.0-3 (Revell, 2024).
+[3] 4_core.R: The evolutionary relationships of this core genome dataset were reconstructed using RAxML-NG v1.2.0 (Kozlov et al., 2019) with 1,000 bootstraps and with a GTR model and gamma substitution rate heterogeneity, selected by modeltest-ng (Darriba et al., 2020). The phylogeny was rooted using the nine non-capripoxvirus chordopox samples, and was visualised using ape v5.7-1 (Paradis and Schliep, 2019), ggtree v3.8.2 (Yu et al., 2017), phangorn v2.11.1 (Schliep, 2011) and phytools v2.0-3 (Revell, 2024).
+
+[4] 3_iqtree.R: We repeated this using a site-heterogeneous substitution model GTR+FO*H4 in IQ-TREE that included optimised base frequencies and four frequency classes to allow sites to have different composition rates to address potential long branch attraction effects stemming from the site-homogeneous RAxML model. This results in the same topological structure and nearly identical branch lengths.
